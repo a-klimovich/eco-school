@@ -1,0 +1,49 @@
+@media screen and (max-width: 1100px) {
+
+  .header__content {
+    padding-left: 15px;
+  }
+
+  .header__image {
+    display: none;
+  }
+
+  .logo {
+    margin: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .expert {
+    margin-bottom: 25px;
+
+    &__merit-box {
+      padding-left: 15px;
+    }
+  }
+
+  .pattern {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .application {
+    flex-direction: column;
+  }
+
+  .ofer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .notice__text {
+    flex-direction: column;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+}

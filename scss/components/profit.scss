@@ -1,0 +1,38 @@
+.profit {
+  display: flex;
+  margin-bottom: 50px;
+
+  &__img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+    &_title {
+      padding: 20px;
+
+      @media screen and (max-width: 1100px) {
+        padding: 0;
+        margin-bottom: 30px;
+      }
+    }
+
+    &_text {
+      text-align: justify;
+      padding: 20px;
+
+      @media screen and (max-width: 1100px) {
+        padding: 0;
+      }
+    }
+  }
+}

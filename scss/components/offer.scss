@@ -1,0 +1,49 @@
+.offer {
+  padding: 70px 0;
+
+  .content-title {
+    margin: 15px 0;
+    margin-bottom: 35px;
+  }
+
+  &__img-bg {
+
+    img {
+      width: 100%;
+      height: 480px;
+    }
+  }
+}
+
+.news-number {
+  position: relative;
+  margin-bottom: 70px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 2px;
+    background-image: url(/image/bashed-line.svg);
+    height: calc(100% - 5px);
+  }
+
+  li {
+    display: flex;
+    margin-bottom: 25px;
+
+    span {
+      position: relative;
+      top: 2px;
+      margin-right: 25px;
+      background: #CCC;
+      color: #FFF;
+      text-align: center;
+      font-size: 10px;
+      height: 14px;
+      width: 14px;
+      padding-top: 2px;
+    }
+  }
+}

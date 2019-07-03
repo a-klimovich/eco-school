@@ -1,0 +1,33 @@
+.notice {
+  padding-bottom: 50px;
+
+  .content-subtitle {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    display: flex;
+    padding-top: 45px;
+
+    p {
+      padding-left: 25px;
+
+      @media screen and (max-width: 1100px) {
+        padding-left: 0;
+      }
+
+      & > a {
+        padding-top: 30px;
+        font-weight: 600;
+      }
+    }
+
+    & > span {
+      font-weight: 600;
+    }
+
+    & > img {
+      width: 110px;
+    }
+  }
+}

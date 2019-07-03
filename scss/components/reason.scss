@@ -1,0 +1,27 @@
+.reason {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+
+  &__title{
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fbfbfb;
+    min-height: 70px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.btn {
+  border-radius: 25px;
+  width: 270px;
+  max-width: 100%;
+  border: none;
+  padding: 15px 30px;
+  background: #B2BE61;
+  color: #fff;
+  text-align: center;
+}
+
+.btn_tarnsparent {
+  color: #B2BE61;
+  background: transparent;
+  border: #B2BE61 1px solid;
+}
+
+.btn_no-border {
+  color: #B2BE61;
+  background: transparent;
+
+  > span {
+    border-bottom: 1px dashed  #B2BE61;
+  }
+}
+
+.btn_white {
+  color: #FFF;
+  background: transparent;
+  border: #FFF 1px solid;
+}

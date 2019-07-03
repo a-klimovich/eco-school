@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background: #7A8531;
+
+  a {
+    color: #fff;
+  }
+
+  &__img {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    margin-right: 40px;
+
+    @media screen and (max-width: 1100px) {
+      margin-right: 0;
+      text-align: center;
+      padding-left: 0;
+      border: none;
+    }
+
+    li {
+      padding: 7px 0;
+
+      @media screen and (max-width: 1100px) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__list_3 {
+    border-left: #fff 1px dashed;
+    padding-left: 30px;
+  }
+}

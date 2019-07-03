@@ -1,0 +1,42 @@
+.dash-lines {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: -35px;
+
+  &__block-1,
+  &__block-2,
+  &__block-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 10px;
+  }
+
+  &__block-1 {
+    margin-bottom: 20px;
+  }
+
+  &__block-2 {
+    margin-bottom: 20px;
+  }
+}
+
+.lines-number {
+  text-align: center;
+  width: 10px;
+  height: 15px;
+  background: #CCC;
+}
+
+.dashed-line {
+  height: 30px;
+  width: 4px;
+  background-image: url('/image/bashed-line.svg');
+  background-size: cover;
+}

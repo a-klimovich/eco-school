@@ -1,0 +1,55 @@
+.expert {
+  display: flex;
+
+  &__content {
+
+    &_title {
+      margin-bottom: 25px;
+    }
+
+    &_name {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    &_text {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__merit {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__merit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+
+    img {
+      width: 50px;
+      margin-right: 45px;
+    }
+
+    .expert__merit-box-img-1 {
+      width: 45px;
+    }
+  }
+
+  &__foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 500px;
+
+      @media screen and (max-width: 1100px) {
+        max-width: 100%;
+      }
+    }
+  }
+}
