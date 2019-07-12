@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   padding-bottom: 25px;
 
+  &__title {
+    margin-bottom: 20pox;
+  }
+
   &__card {
     display: flex;
     align-items: center;

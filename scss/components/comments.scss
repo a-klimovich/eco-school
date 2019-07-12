@@ -77,10 +77,20 @@
 
   .slider-btn {
     margin-top: 20px;
+    color: #7A8531;
+
+    &__page-numb {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
 
     button {
       border: none;
-      background: transparent;
+      color: #7A8531;
+      background: #FAFAFA;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
     }
   }
 }
