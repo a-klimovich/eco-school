@@ -44,4 +44,23 @@ $(function() {
     $('body').toggleClass('modal');
     $('.nav__menu, .burger-menu').toggleClass('active');
   })
+
+  // form
+  $('#registration').on('submit', function(e) {
+    e.preventDefault();
+
+    const $form = $(this);
+
+    $.ajax({
+      method: $form.attr('method'),
+      url: $form.attr('action'),
+      data: $form.serialize()
+    })
+    .done(() => {
+      alert('Отправлено успешно')
+    })
+    .fail(() => {
+      alert('Ошибка отправки')
+    })
+  })
 })
